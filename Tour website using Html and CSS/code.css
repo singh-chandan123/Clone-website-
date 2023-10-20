@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.container{
+   
+    height: 100%;
+    width: 100%;
+background-image: url('./image.html/header-bg.png');
+background-position: bottom;
+background-size: cover;
+margin-bottom: 60px;
+
+}
+.navfirst{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: whitesmoke;
+}
+.navbarclass{
+    display: flex;
+position: absolute;
+top: 0px;
+width: 100%;
+left: 0px;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-right: 40px;
+
+}
+/* .button{
+    list-style-type: none;
+} */
+.alllist{
+    list-style-type: none;
+    color: whitesmoke;
+    padding: 0px 50px;
+    font-size: larger;
+}
+.navlinks{
+    display: flex;
+    margin-top: 10px;
+
+   
+}
+.home{
+    color: rgb(246, 34, 19);
+text-decoration: underline;
+}
+.button{
+    margin-top: 1px;
+  padding: 5px 15px;
+  background-color: rgb(236, 27, 16);
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* header file */
+.headerfirst{
+   padding: 300px 400px;
+   text-align: center;
+   color: whitesmoke;
+ 
+}
+.heading1{
+    font-size: 4vmin;
+}
+.line{
+    background-color: red;
+    width: 150px;
+    height: 4px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.heading2{
+    margin-top: 50px;
+    font-size: 7vmin;
+    margin-bottom: 30px;
+}
+.button2{
+    background-color: red;
+    color: whitesmoke;
+    padding: 8px 16px;
+    font-size: large;
+    border-radius: 30px;
+
+}
+
+/* events section */
+.eventsec h1{
+    text-align: center;
+    color: rgb(71, 46, 95);
+    margin-bottom: 20px;
+}
+.row{
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+   column-gap: 50px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.col h3{
+    margin-top: 20px;
+}
+.col p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.eventsec{
+    margin-bottom: 150px;
+}
+/* exploreclass section */
+.exploreclass{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./image.html/bg2.png');
+    background-position: bottom;
+background-size: cover;
+color: whitesmoke;
+}
+.exploreclass h1{
+    padding-top: 130px;
+    padding-left: 70px;
+}
+ .line1 {
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 4px;
+    width: 180px;
+    background-color: red;
+    border-radius:5px ;
+}
+.exploreclass p{
+    padding-top: 100px;
+    padding-left: 70px;
+    max-width: 40vw;
+}
+.button3{
+margin-top: 90px;
+margin-left: 70px;
+font-size: large;
+padding: 8px 16px;
+color: whitesmoke;
+background-color: red;
+border-radius: 30px;
+}
+
+/* upcoming tour class */
+.upcomingtour{
+    height: 80vh;
+    width: 100vw;
+    margin: 100px 120px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.upcomingtour h1{
+    margin-top: 50px;
+    width: 20vw;
+}
+.upcomingtour p{
+    max-width: 25vw;
+    margin-bottom: 40px;
+}
+.Line{
+    height: 4px;
+    width: 160px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  
+}
+.imgfirst{
+    padding: 10px 10px;
+}
+.allimageclass{
+    margin-bottom: 4rem;
+}
+/* footersection class */
+.footersection{
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(75, 62, 87);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
